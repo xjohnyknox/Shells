@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # SCRIPT para poner un versículo diario
+# Funciona colocando en tu bashrc -> sh /route/to/shell_daily.sh
 
 fecha="$(date +"*%A* %d/%b")"
 echo "*********LA PAROLE DU JOUR: $fecha ******************"
